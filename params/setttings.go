@@ -25,7 +25,7 @@ const defaultProtocolThrottleFillRate = 10.
 const defaultprotocolRetryInterval = 1.
 
 //DefaultRevealTimeout blocks needs to update transfer
-const DefaultRevealTimeout = 5
+const DefaultRevealTimeout = 50
 
 //DefaultSettleTimeout settle time of channel
 const DefaultSettleTimeout = 600
@@ -130,3 +130,6 @@ var MatrixDiscoveryRoomConfig = [][]string{
 	{"aliassegment", "discovery"},
 	{"server", "transport01.smartmesh.cn"},
 }
+
+//NETWORKNAME Specify the network name of the Ethereum network to run SmartRaiden on
+var NETWORKNAME = "ropsten"
